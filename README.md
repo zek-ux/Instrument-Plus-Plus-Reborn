@@ -1,8 +1,9 @@
-# `Instrument ++ Reborn`
+# `Instrument++ Reborn`
 
-A fork of the original Instrument++ mod which has the goal of porting this mod to other Minecraft versions, fixing bugs with the original mod and potentially providing compatibility with certain other mods.
+This is a fork of the original Instrument++ mod made by Viola-Siemens which has the goal of porting this mod to other Minecraft versions, fixing bugs with the original mod and potentially providing compatibility with certain other mods.
+New features may come later on down the line!
 
-Due to the goal of this fork and personal skill level, any new features or new instruments are unlikely.
+You can find the original mod [here!](https://modrinth.com/mod/instrument%2B%2B)
 
 This mod adds the following 16 noteblock instruments：
 
@@ -24,3 +25,14 @@ This mod adds the following 16 noteblock instruments：
 | Viola     | F#3~F#5 | Any Glazed Terracotta Block           |
 | Violin     | F#4~F#6 | Any Terracotta Block                 |
 | Yangqin     | F#3~F#5 | Amethyst Block and Budding Amethyst |
+
+## `Currently Planned`
+- Fix the JEI functionallity.
+- Implement an API for easily making custom Noteblock instruments.
+- Port to other 1.21.x versions.
+- Port to the 26.x versions
+- Backport to 1.17.x and before.
+- Port the Fabric version of the mod beyond 1.19-1.18.2.
+
+## `Known Compatibillities`
+- Sable & Aeronautics: Custom Noteblock instruments work on Sable Sublevels.
