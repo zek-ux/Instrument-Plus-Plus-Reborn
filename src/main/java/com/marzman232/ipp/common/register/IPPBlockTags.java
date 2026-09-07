@@ -1,0 +1,30 @@
+package com.marzman232.ipp.common.register;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
+
+import static com.marzman232.ipp.InstrumentPlusPlus.MODID;
+
+public class IPPBlockTags {
+	public static final TagKey<Block> AMETHYST_BLOCKS = create("amethyst_blocks");
+	public static final TagKey<Block> BASALTS = create("basalts");
+	public static final TagKey<Block> BLACKSTONES = create("blackstones");
+	public static final TagKey<Block> COPPER_BLOCKS = create("copper_blocks");
+	public static final TagKey<Block> CUT_COPPER_BLOCKS = create("cut_copper_blocks");
+	public static final TagKey<Block> DEAD_CORAL_BLOCKS = create("dead_coral_blocks");
+	public static final TagKey<Block> END_STONES = create("end_stones");
+	public static final TagKey<Block> GLAZED_TERRACOTTA = create("glazed_terracotta");
+	public static final TagKey<Block> NETHER_BRICKS = create("nether_bricks");
+	public static final TagKey<Block> QUARTZ_BLOCKS = create("quartz_blocks");
+	public static final TagKey<Block> SNOWS = create("snows");
+
+	private static TagKey<Block> create(String name) {
+		return TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MODID, name));
+	}
+	
+	public static void init() {
+
+	}
+}

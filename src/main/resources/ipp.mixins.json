@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.marzman232.ipp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NoteBlockInstrumentMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
